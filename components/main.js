@@ -78,7 +78,7 @@ export default class main extends Component {
       .done();
   };
 
-  //Handles delete confirmation for google account =>
+  //Handles sign out confirmation for google account =>
   _googleSignOutConfirmation = () => {
 
     Alert.alert(
