@@ -79,7 +79,7 @@ If you configured everything correctly, the terminal will print something like t
 
 ![img6](./tutorial-images/pic6.png) 
 **Notice**: *The command above should bring up another command line at the background -   
-this is the server in which your app will run from, otherwize it will not work.  
+this is the server in which your app will run from, otherwise it will not work.  
 If you face an issue like that, just hit again `react-native run-android` at the terminal and it should solve it*
 
 
