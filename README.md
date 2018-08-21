@@ -2,58 +2,55 @@
 
 
 
-A simple application that demonstrates how to properly use Facebook and Google Services -
+A simple application that demonstrates how to properly use Facebook and Google Services,  
+How to retrieve data, and how to connect them to your Firebase account.
 
-How to retrieve data ,and how to connect them to your Firebase account.
-
-**Note that the application is currently developed for android devices**
+**Note that the application is currently developed for android devices.**
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-See deployment for notes on how to deploy the project on a live system.
+See "Deployment" for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-* Download and install android studio on your local machine. 
+* Download and install "Android studio" on your local machine. 
 
-**NOTE - This step could take some time depends on your machine and your internet connection.**
-* After the installation of android studio, install all of the packages mentioned on the [offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html) -  
- Hit *'building projects with react native'* tab ,
-and make sure you cover the whole page.
+**NOTE: This step could take some time depending on your machine and your internet connection.**
+* After the installation of android studio, install all of the packages mentioned on the [offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html),  
+ Hit *'building projects with react native'* tab,
+and make sure you carefully walk through the instructions.
 
 You should now have access to a fully functioning AVD on which we are going to run our application.
 
-* Download [vsCode](https://code.visualstudio.com/) if you havn't yet - It is a light-weight yet powerful IDE which I recommend 
+* Download [vsCode](https://code.visualstudio.com/) if you havn't yet. It is a light-weight, yet powerful, IDE which I recommend.   
+(You can skip this step if you have another preference of IDE.)
 
-**You can skip it if you have another preference of IDE.**
+At this time, you should be all set and ready to move forward to the installation stage:
 
-Now we all set and ready for the installation part.
-
-* Make sure [Node.js](https://nodejs.org/en/) is installed on your machine, download and install it otherwise as it is mandatory for our project to run. 
+* Make sure [Node.js](https://nodejs.org/en/) is installed on your machine, as it is mandatory for our project to run. 
 
 
 ### Installing
 
-First download the project to your machine and open it with vsCode or any other IDE of your choise.
-then, open a command line and navigate to the project folder you have downloaded 
+First, download the project and open it with "vsCode" (or any other IDE of your choise).
+Next, open a command line and navigate to the project folder you have downloaded.  
+(You may use the integrated terminal if you want)
 
-(You can use the integrated terminal if you want)
-
-e.g 
+e.g: 
 ```
 cd desktop 
 cd nativeSocialLogin
 ```
-Then hit the following command
+Next hit the following command :
 ```
 npm install
 ```
-you'll notice a folder named `node_modules` added to the files, and your project file explorer should look like this -
+You'll notice a folder named `node_modules` added to the project files, Your project file explorer should look like this :
 
 ![img1](./tutorial-images/pic1.png)
 
-Now you should be able to start the application.
+You should now be able to start the application.
 
 ## Running the app
 
@@ -61,31 +58,31 @@ Go ahead and open `Anroid Studio` and choose the AVD manager icon at the top bar
 
 ![img2](./tutorial-images/pic2.png)
 
-If you have configured your AVD properly you should get a window that look like this:
+If you have configured your AVD properly you should get a window that looks like this:
 
 ![img3](./tutorial-images/pic3.png)
 
-Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the *Actions* section, and your AVD should pop up:
+Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the *Actions* section and your AVD should pop up:
 
 ![img5](./tutorial-images/pic5.png)
 
-Then go back to your command prompt you used before, If you closed it open it up again and navigate to your project directory once again.
-Then put the following command :
+Go back to your previous command prompt. If you closed it, open it up again, navigate to your project directory 
+and put the following command :
 ```
 react-native run-android
 ```
-That should compile the `.apk` file which will be installed on your AVD.  
+This should compile the `.apk` file which will be installed on your AVD.  
 If you configured everything correctly, the terminal will print something like this:
 
 ![img6](./tutorial-images/pic6.png) 
-**Notice**: *The command above should bring up another command line at the background -   
-this is the server in which your app will run from, otherwise it will not work.  
-If you face an issue like that, just hit again `react-native run-android` at the terminal and it should solve it*
+**Notice**: *The command above should open up another command line in the background.  
+This is the server in which your app will run from, otherwise it will not work.  
+If you happen to face such an issue, type in again `react-native run-android` in the terminal and it should resolve.*
 
 
 
 
-Then, the app would run on your AVD and it will look like that:  
+The app should then run on your AVD looking like this :  
 
 ![img7](./tutorial-images/pic7.png)
 
@@ -93,12 +90,13 @@ Then, the app would run on your AVD and it will look like that:
 
 ## Deployment
 
-In order to install thee app on a physical android device, you need the `.apk` file which is the installation file for android applications just like the `.exe` we use on PC.  
-I provided the project's `.apk` file under the project's root directory.  
-Now, in order to be able to install it on your android device you need to transfer the `.apk` installation file into your device by either simply put it in the phone's sd-card , email it to yourself or any other preferred method you would like.  
-Once the file is in your device, simply navigate to it and click it, the installation wizard will pop up and ask you for permission to install it.Go ahead and accept all, then the device might block the installation due to unknown resources installation is disabled on your phone by default - And the installation will guide you to it by a click of a button.
+In order to install the app on a physical android device, you need the `.apk` file. This is the installation file for android applications just like the `.exe` we use on a PC.  
+I provided the project's `.apk` file in the project's root directory.  
+Now, in order to be able to install it on your android device you need to transfer the `.apk` installation file to your device by either simply put it in the phone's sd-card, email it to yourself or any other preferred method.  
+Once the file is in your device, simply navigate to it and click it. the installation wizard will pop up and ask you for permission to install it so go ahead and accept, the device might block the installation due to unknown resources  
+(installation is disabled on your phone by default) - And the installation will guide you to the settings where you can activate installation from unknown resources by a click of a button.
 
-Thats it, now you can access the application through your mobile device.
+Thats it! now you can access the application through your mobile device.
 
 ## Built With
 
@@ -135,7 +133,7 @@ Thats it, now you can access the application through your mobile device.
 
 ## Important note
 
-* If you intend to develop an application implements the services I used here, i hardly suggest you to follow slowly along the long detailed docs provided in the official websites of each service, as you will have a hard time getting it done. 
+* If you intend to develop an application which implements the services used here, I strongly suggest to follow accurately along the long detailed documents provided in the official websites of each service, as you will have a difficult time otherwise. 
 
 ## Useful Links
 * [Offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html) 
@@ -149,5 +147,5 @@ Thats it, now you can access the application through your mobile device.
 
 
 ## Final
-That will be it, follow the development comments I wrote at the `main.js` file to fully understand the functionality and the logic behind each function.
+In conclusion, please make sure to follow the development comments I wrote in the `main.js` file to fully understand the functionality and the logic behind each function.
 
