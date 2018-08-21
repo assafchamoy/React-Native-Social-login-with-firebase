@@ -66,7 +66,7 @@ If you have configured your AVD properly you should get a window that look like 
 
 Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the action section, and your AVD should pop up:
 
-![img4](./tutorial-images/pic4.png)
+![img4](./tutorial-images/pic5.png)
 
 Then go back to your command prompt you used before, If you closed it open it up again and navigate to your project directory once again.
 Then put the following command :
