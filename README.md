@@ -110,23 +110,23 @@ Thats it, now you can access the application through your mobile device.
 
 ## App screens
 
- #### Default welcome screen: 
+ ### Default welcome screen: 
 
 ![img7](./tutorial-images/pic7.png)
 
- ####  Facebook login modal: 
+ ###  Facebook login modal: 
 
 ![img9](./tutorial-images/pic9.png)
 
- ####  Google login modal: 
+ ###  Google login modal: 
 
 ![img8](./tutorial-images/pic8.png)
 
- ####  Welcome Facebook homepage: 
+ ###  Welcome Facebook homepage: 
 
 ![img10](./tutorial-images/pic10.png)
 
- ####  Welcome Google homepage: 
+ ###  Welcome Google homepage: 
 
 ![img11](./tutorial-images/pic11.png)
 
