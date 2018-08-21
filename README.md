@@ -66,7 +66,7 @@ If you have configured your AVD properly you should get a window that look like 
 
 Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the action section, and your AVD should pop up:
 
-![img4](./tutorial-images/pic5.png)
+![img4](./tutorial-images/pic4.png)
 
 Then go back to your command prompt you used before, If you closed it open it up again and navigate to your project directory once again.
 Then put the following command :
@@ -110,23 +110,23 @@ Thats it, now you can access the application through your mobile device.
 
 ## App screens
 
-* Default welcome screen: 
+ #### Default welcome screen: 
 
 ![img7](./tutorial-images/pic7.png)
 
-* Facebook login modal: 
+ ####  Facebook login modal: 
 
 ![img9](./tutorial-images/pic9.png)
 
-* Google login modal: 
+ ####  Google login modal: 
 
 ![img8](./tutorial-images/pic8.png)
 
-* Welcome Facebook homepage: 
+ ####  Welcome Facebook homepage: 
 
 ![img10](./tutorial-images/pic10.png)
 
-* Welcome Google homepage: 
+ ####  Welcome Google homepage: 
 
 ![img11](./tutorial-images/pic11.png)
 
