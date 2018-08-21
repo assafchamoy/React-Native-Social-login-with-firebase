@@ -134,7 +134,7 @@ Thats it, now you can access the application through your mobile device.
 
 ## Important note
 
-* If you intend to develop an application implements the services I used here, i hardly suggest you to follow slowly along the long detailed docs provided in the official websites of each service, as you will have a hard time getting it done. 
+* If you intend to develop an application implements the services I used here, i hardly suggest you to follow slowly along the long detailed docs provided in the official websites of each service, as you will have a hard time getting it done otherwise. 
 
 ## Useful Links
 * [Offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html) 
