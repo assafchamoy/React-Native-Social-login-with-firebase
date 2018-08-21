@@ -65,7 +65,7 @@ If you have configured your AVD properly you should get a window that look like 
 
 ![img3](./tutorial-images/pic3.png)
 
-Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the action section, and your AVD should pop up:
+Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the *Actions* section, and your AVD should pop up:
 
 ![img5](./tutorial-images/pic5.png)
 
