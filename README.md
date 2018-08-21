@@ -90,7 +90,7 @@ The app should then run on your AVD looking like this :
 
 ## Deployment
 
-In order to install the app on a physical android device, you need the `.apk` file. This is the installation file for android applications just like the `.exe` we use on a PC.  
+In order to install the app on a physical android device, you need the `.apk` file. This is the installation file for android applications.
 I provided the project's `.apk` file in the project's root directory.  
 Now, in order to be able to install it on your android device you need to transfer the `.apk` installation file to your device by either simply put it in the phone's sd-card, email it to yourself or any other preferred method.  
 Once the file is in your device, simply navigate to it and click it. the installation wizard will pop up and ask you for permission to install it so go ahead and accept, the device might block the installation due to unknown resources  
