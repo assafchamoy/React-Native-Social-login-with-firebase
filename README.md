@@ -18,7 +18,8 @@ See deployment for notes on how to deploy the project on a live system.
 * Download and install android studio on your local machine. 
 
 **NOTE - This step could take some time depends on your machine and your internet connection.**
-* After the installation of android studio, install all of the packages mentioned on the [offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html) - Hit building projects with react native ,
+* After the installation of android studio, install all of the packages mentioned on the [offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html) -  
+ Hit *'building projects with react native'* tab ,
 and make sure you cover the whole page.
 
 You should now have access to a fully functioning AVD on which we are going to run our application.
@@ -44,7 +45,7 @@ e.g
 cd desktop 
 cd nativeSocialLogin
 ```
-Then type the following command
+Then hit the following command
 ```
 npm install
 ```
@@ -64,12 +65,12 @@ If you have configured your AVD properly you should get a window that look like 
 
 ![img3](./tutorial-images/pic3.png)
 
-Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the actions section, and your AVD should pop up:
+Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the action section, and your AVD should pop up:
 
-![img4](./tutorial-images/pic5.png)
+![img4](./tutorial-images/pic4.png)
 
 Then go back to your command prompt you used before, If you closed it open it up again and navigate to your project directory once again.
-Then type the following command :
+Then put the following command :
 ```
 react-native run-android
 ```
@@ -134,7 +135,7 @@ Thats it, now you can access the application through your mobile device.
 
 ## Important note
 
-* If you intend to develop an application implements the services I used here, i hardly suggest you to follow slowly along the long detailed docs provided in the official websites of each service, as you will have a hard time getting it done otherwise. 
+* If you intend to develop an application implements the services I used here, i hardly suggest you to follow slowly along the long detailed docs provided in the official websites of each service, as you will have a hard time getting it done. 
 
 ## Useful Links
 * [Offical React Native website](https://facebook.github.io/react-native/docs/getting-started.html) 
