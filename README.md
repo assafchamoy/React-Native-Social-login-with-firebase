@@ -33,7 +33,7 @@ At this time, you should be all set and ready to move forward to the installatio
 
 ### Installing
 
-First, download the project and open it with "vsCode" (or any other IDE of your choise).
+First, download the project and open it with "vsCode" (or any other IDE of your choice).
 Next, open a command line and navigate to the project folder you have downloaded.  
 (You may use the integrated terminal if you want)
 
