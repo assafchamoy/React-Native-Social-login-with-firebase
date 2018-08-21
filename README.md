@@ -44,7 +44,7 @@ e.g
 cd desktop 
 cd nativeSocialLogin
 ```
-Then hit the following command
+Then type the following command
 ```
 npm install
 ```
@@ -69,7 +69,7 @@ Go ahead and click the ![play](./tutorial-images/AVDplayBtn.png) at the action s
 ![img4](./tutorial-images/pic5.png)
 
 Then go back to your command prompt you used before, If you closed it open it up again and navigate to your project directory once again.
-Then put the following command :
+Then type the following command :
 ```
 react-native run-android
 ```
