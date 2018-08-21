@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "271167611283",
+    "firebase_url": "https://sociallogintask.firebaseio.com",
+    "project_id": "sociallogintask",
+    "storage_bucket": "sociallogintask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271167611283:android:6b345d6adcbc455f",
+        "android_client_info": {
+          "package_name": "com.nativeandroidsociallogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271167611283-5qg7hete9ugpp4oegccs6up1gtf2rpnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nativeandroidsociallogin",
+            "certificate_hash": "390ce9e88c5dddf44f93fb432a05cd6a2df6cc93"
+          }
+        },
+        {
+          "client_id": "271167611283-k99uftfbes22i4m33ffqc7013fmlkbr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBgAGznhd1ad1-H-yVsZ9M99ncidDjm5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271167611283-k99uftfbes22i4m33ffqc7013fmlkbr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
