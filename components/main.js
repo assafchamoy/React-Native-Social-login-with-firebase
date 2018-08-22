@@ -30,6 +30,7 @@ export default class main extends Component {
           let credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken);
           // Login with credential=>
           let currentUser = firebase.auth().signInAndRetrieveDataWithCredential(credential);
+          //Fetching the data from facebook via graph api using the granted accessToken
           return fetch(`https://graph.facebook.com/me?fields=name,picture&access_token=${data.accessToken}`)
             .then((response) => response.json())
             .then(data => {
