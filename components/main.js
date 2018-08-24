@@ -29,7 +29,7 @@ export default class main extends Component {
           // Create a new firebase credential with the token =>
           let credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken);
           // Login with credential=>
-          let currentUser = firebase.auth().signInAndRetrieveDataWithCredential(credential);
+          firebase.auth().signInAndRetrieveDataWithCredential(credential);
           //Fetching the data from facebook via graph api using the granted accessToken
           return fetch(`https://graph.facebook.com/me?fields=name,picture&access_token=${data.accessToken}`)
             .then((response) => response.json())
@@ -63,7 +63,7 @@ export default class main extends Component {
         // Create a new firebase credential with the token =>
         let credential = firebase.auth.GoogleAuthProvider.credential(user.idToken, user.accessToken)
         // Login with credential =>
-        let currentUser = firebase.auth().signInAndRetrieveDataWithCredential(credential);
+        firebase.auth().signInAndRetrieveDataWithCredential(credential);
 
         //Change the state with google account's details =>
         this.setState({
@@ -129,26 +129,18 @@ export default class main extends Component {
     };
 
     /*Check if there is a logged client in the session
-    ? Set the state to client's details
-    : Default behaviour.     
+    if true - Set the state to client's details
+    else - Default behaviour.     
     */
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
-        if (user.providerData[0].providerId == 'facebook.com') {
+        let flag=user.providerData[0].providerId == 'facebook.com';
           this.setState({
             userName: user.displayName,
             userPicture: user.photoURL,
-            googleLogged: false,
-            fbLogged: true
+            googleLogged: !flag,
+            fbLogged: flag
           });
-        } else {
-          this.setState({
-            userName: user.displayName,
-            userPicture: user.photoURL,
-            googleLogged: true,
-            fbLogged: false
-          });
-        }
       }
     });
   }
